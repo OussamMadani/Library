@@ -1,0 +1,32 @@
+{
+  "book": [
+    {
+      "id": "1",
+      "title": "the 20 hours",
+      "description": "tape here some paragraph about this book",
+      "date_created": "2019-10-10",
+      "rating": "4"
+    },
+    {
+      "id": "1",
+      "title": "the 20 hours",
+      "description": "tape here some paragraph about this book",
+      "date_created": "2019-10-10",
+      "rating": "4"
+    },
+    {
+      "title": "oussama",
+      "description": "hello this is my first book i try to add it into my collections ",
+      "date": "2021-08-19",
+      "rating": "3",
+      "id": "1628343944732"
+    },
+    {
+      "title": "hssisan",
+      "description": "fgffgfgfgfg",
+      "date": "2021-12-10",
+      "rating": "4",
+      "id": "1638780176930"
+    }
+  ]
+}
