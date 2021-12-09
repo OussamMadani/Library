@@ -70,18 +70,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-
-        {
-      "id": "1",
-      "title": "the 20 hours",
-      "description": "tape here some paragraph about this book",
-      "date_created": "2019-10-10",
-      "rating": "4"
-    },
-    {
-      "id": "1",
-      "title": "the 20 hours",
-      "description": "tape here some paragraph about this book",
-      "date_created": "2019-10-10",
-      "rating": "4"
-    }
