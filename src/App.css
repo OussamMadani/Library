@@ -1,10 +1,15 @@
 
+.sentHeader{
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .navbar2 {
   margin: auto;
   width: 70%;
   border-radius: 20px;
   background-color:#603bbb;
   font-size: 18px;
+  
   
 }
 .navbar22 {
@@ -13,7 +18,8 @@
   border-radius: 20px;
   background-color:#603bbb;
   font-size: 18px;
-  
+  display:block;
+  position: relative;
 }
 
 .navbar .container .btn {
@@ -126,4 +132,87 @@
 
 .containerbtn .btn{
   width: 115px;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+  width: 100%;
+  height: 80vh;
+  background: url(/home/madani/Desktop/Projects/Library/src/images/hero-bg.png) top center no-repeat;
+  background-size: cover;
+}
+.hero h1 {
+  padding-top: 10%;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #012970;
+}
+.hero h2 {
+  color: #444444;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+}
+.hero .btn-get-started {
+  margin-top: 30px;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+.hero .btn-get-started span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.hero .btn-get-started i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.hero .btn-get-started:hover i {
+  transform: translateX(5px);
+}
+.hero .hero-img {
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  .hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 991px) {
+  .hero {
+    height: auto;
+    padding: 0px 0 0px 0;
+  }
+  .hero .hero-img {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .hero .hero-img img {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero h2 {
+    font-size: 24px;
+  }
+  .hero .hero-img img {
+    width: 100%;
+  }
+}
+.homeContainer{
+  background-color: rgb(236, 238, 255);
 }

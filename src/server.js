@@ -36,7 +36,7 @@ app.post('/book',(req,res)=>{
     db2.get('book')
         .push(req.body)
         .last()
-        .assign({id: Date.now().toString()})
+        // .assign({id: Date.now().toString()})
         .write()
         .then(book => res.send(book))
 })

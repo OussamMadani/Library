@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import addBook from './components/AddBook';
+import Book from './components/Book2';
 import Home from './components/Home';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './App.css';
-//import addBook from './books/addBook';
 import Login from './authentifiaction/Login';
 import fire from './fire';
 
@@ -77,9 +78,18 @@ function App(){
   }, []);
   return(
     <Router>
+    
       <div className="App">
         {user ? (
-          <Home handleLogout={handleLogout}/>
+          <>
+          <Home handleLogout={handleLogout}>
+          <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/add" component={addBook}/> 
+          </Switch>
+          </Home>
+          </>
+    
         ): (
           <Login
           email={email}
