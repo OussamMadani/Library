@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import imgHeader from '../images/imgHeader-removebg-preview.png'
 import NavBar2 from '../layout/NavBar2';
 
+
 const Header = ({handleLogout}) =>{
 
-    return(
-        
-        
-        <section id="hero" className="hero ">    
-        <NavBar2 handleLogout={handleLogout}/>
-        <div className='d-flex align-items-center'>
+  return(
+    <section id="hero" className="hero ">    
+      <NavBar2 handleLogout={handleLogout}/>
+      <div className='d-flex align-items-center'>
         <div className="container">
           <div className="row">
             <div className="col-lg-6 d-flex flex-column justify-content-center">
@@ -29,12 +28,9 @@ const Header = ({handleLogout}) =>{
             </div>
           </div>
         </div>
-        </div>
-    
-      </section>
-      
-    )
-
+      </div>
+    </section>
+  )
 }
 
 export default Header;

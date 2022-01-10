@@ -2,24 +2,27 @@
   "book": [
     {
       "id": "1",
+      "img": "https://kbimages1-a.akamaihd.net/3f922632-f195-4bcf-9b3a-d5392b8c2849/1200/1200/False/the-first-20-hours-1.jpg",
       "title": "the 20 hours",
       "description": "tape here some paragraph about this book",
-      "date_created": "2019-10-10",
+      "date": "2019-10-10",
       "rating": "4"
     },
     {
       "id": "1639428359359",
+      "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444652311l/26636067.jpg",
       "title": "master JS",
       "description": "this book is only for javascript developers",
       "date": "2021-12-13",
       "rating": "4"
     },
     {
-      "id": "1639428589753",
-      "title": "full stack developer",
-      "description": "many technologies can helps you to master web development",
-      "date": "2021-12-30",
-      "rating": "2"
+      "id": "1639428359359",
+      "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444652311l/26636067.jpg",
+      "title": "master JS",
+      "description": "this book is only for javascript developers",
+      "date": "2021-12-13",
+      "rating": "4"
     }
   ]
 }
