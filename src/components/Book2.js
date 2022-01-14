@@ -5,21 +5,21 @@ import NavBar2 from "../layout/NavBar2";
 import Header from "./Header";
 import { useState, useEffect} from "react";
 import { Button,Modal } from "react-bootstrap";
+
 import { Link } from "react-router-dom";
 
 
 const Book2 = ({handleLogout}) => {
   const [books, setBooks] = useState(null);
   const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   const [loading, setLoading] = useState(false);
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [date, setDate] = useState('');
   const [rating, setRating] = useState(null);
   const [id, setId] = useState(null);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
   useEffect(() => {
     loadBooks();
   }, []);
